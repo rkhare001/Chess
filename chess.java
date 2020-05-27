@@ -1,10 +1,11 @@
 package com.chess;
 
-//import java.util.Random;
-//import java.util.Scanner;
+import java.util.Random;
+import java.util.Scanner;
+
 public class chess
 {
-    /*private int white_piece = 16;
+    private int white_piece = 16;
     private int black_piece = 16;
     private final int blocks = 64;
     private boolean defeat = false;
@@ -57,7 +58,7 @@ public class chess
         z--;
       }
     }
-/*            
+         
     public int totalBlackPiece()
     {
         return black_piece;
@@ -162,5 +163,5 @@ System.out.println("Player "+n+" : "+P1+" : white pieces");
             move.close();
         }                
         System.out.println(winner+"Wins");
-    }*/
+    }
 }
